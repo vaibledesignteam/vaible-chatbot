@@ -5,7 +5,8 @@ const cors = require('cors');
 const { OpenAI } = require('openai');
 
 const app = express();
-const port = 3000; // you can change later if needed
+const port = process.env.PORT || 3000;
+
 
 app.use(cors());
 app.use(express.json());
