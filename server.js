@@ -239,13 +239,7 @@ const FAQS = [
     triggers: ['annual contract', 'long term supply', 'yearly contract'],
     answer:
       'Yes, we support annual contracts and long-term supply agreements, with mutually agreed specs, pricing and delivery schedules.'
-  },
-  {
-  id: 'vimal_joke',
-  triggers: ['vimal joke', 'tell me about vimal', 'vimal idiot'],
-  answer:
-    "Vimal is a Rajasthani idiot who thinks he plays cricket very well. 'Taal bijli se patle hamare piya' song is actually based on Vimal. 😂"
-}
+  }
 
 ];
 
